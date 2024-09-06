@@ -1396,7 +1396,6 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background: url("images/bg01.png");
 			width: 100%;
 			height: 100%;
 			opacity: 0.75;
@@ -1416,6 +1415,12 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
+		}
+
+		.image.logo {
+			float: left;
+			width: 20%;
+			margin: 1em 0em 0em 1em;
 		}
 
 		.image.centered {
@@ -1719,10 +1724,10 @@ input, select, textarea {
 		}
 
 			#nav > ul > li > a, #nav > ul > li > span {
-				color: #fff;
+				color: #E9DED3;
 				text-decoration: none;
 				text-transform: none;
-				font-weight: 800;
+				font-weight: 040;
 				font-size: 0.95em;
 				letter-spacing: 0.075em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
@@ -1734,7 +1739,7 @@ input, select, textarea {
 			#nav > ul > li.current_page_item > a,
 			#nav > ul > li.active > span,
 			#nav > ul > li.current_page_item > span {
-				background: rgba(0, 0, 0, 0.15);
+				background: rgba(15, 16, 18, 0.5);
 				box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025), 1px 1px 0px 0px rgba(255, 255, 255, 0.025);
 			}
 
@@ -1748,14 +1753,14 @@ input, select, textarea {
 
 	.dropotron {
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+		background-image: -webkit-linear-gradient(top, rgba(212, 33, 33, 0.5), rgba(212, 33, 33, 0.9)), url("images/bg02.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		position: relative;
-		background-color: #3B3E45;
-		background-color: rgba(59, 62, 69, 0.9);
+		background-color: #45403b;
+		background-color: rgba(50, 50, 51, 0.9);
 		border-radius: 8px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
+		box-shadow: inset 0px 0px 0px 1px rgba(7, 7, 7, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		padding: 1.5em;
 		line-height: 2.5em;
@@ -1770,17 +1775,17 @@ input, select, textarea {
 		}
 
 		.dropotron a, .dropotron span {
-			color: #aaa;
+			color: #F9F5F2			;
 			text-decoration: none;
 			text-transform: none;
-			font-weight: 800;
+			font-weight: 400;
 			font-size: 0.8em;
 			letter-spacing: 0.075em;
 			outline: 0;
 		}
 
 		.dropotron li:hover > a, .dropotron li:hover > span {
-			color: #fff;
+			color: #D4CFCE;
 		}
 
 /* Banner */
@@ -1794,13 +1799,13 @@ input, select, textarea {
 	}
 
 		#banner h2 {
-			border: solid 1px rgba(255, 255, 255, 0.25);
+			border: solid 1px rgba(212, 33, 33, 0.5);
 			border-left: 0;
 			border-right: 0;
-			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color:rgba(159, 139, 118, 1);
+			color: rgba(233, 222, 211,0.9);
 			font-size: 2.35em;
-			font-weight: 700;
+			font-weight: 550;
 			line-height: 1.3em;
 			margin: 0 0 1.5em 0;
 		}
@@ -1815,7 +1820,7 @@ input, select, textarea {
 				display: block;
 				border-top: solid 1px;
 				border-color: #888;
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color:rgba(212, 33, 33, 0.5);
 				margin: 10px 0 1.25em 0;
 			}
 
@@ -1824,20 +1829,19 @@ input, select, textarea {
 				display: block;
 				border-bottom: solid 1px;
 				border-color: #888;
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color:rgba(212, 33, 33, 0.5);
 				margin: 1.25em 0 10px 0;
 			}
 
 		#banner p {
 			text-transform: none;
-			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(233, 222, 211, 1);
 			font-size: 1.5em;
-			font-weight: 700;
+			font-weight: 400;
 			line-height: 1.3em;
 			letter-spacing: 0.04em;
 			float: left;
-			text-align: right;
+			text-align: center;
 			width: 60%;
 			line-height: 1.5em;
 			margin: 0;
@@ -1852,7 +1856,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/header.jpg");
+		background: url("images/bg01.png"),rgba(15, 16, 18, .5);
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
@@ -1863,10 +1867,10 @@ input, select, textarea {
 	}
 
 	#footer-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
+		background-image: -moz-linear-gradient(top, rgba(15, 16, 18, .5), rgba(222, 33, 33, .5)), url("images/bg03.png"), url("images/bg02.png");
+		background-image: -webkit-linear-gradient(top, rgba(15, 16, 18, .5), rgba(222, 33, 33, .5)), url("images/bg03.png"), url("images/bg02.png");
+		background-image: -ms-linear-gradient(top, rgba(15, 16, 18, .5), rgba(222, 33, 33, .5)), url("images/bg03.png"), url("images/bg02.png");
+		background-image: linear-gradient(top, rgba(15, 16, 18, .5), rgba(222, 33, 33, .5)), url("images/bg03.png"), url("images/bg02.png");
 		position: relative;
 		background-repeat: repeat-x, no-repeat, repeat;
 		background-size: 100% 100%, 100% 15em, auto auto;
@@ -1907,8 +1911,8 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		border-radius: 10px;
-		background: rgba(255, 255, 255, 0.1);
+		border-radius: 8px;
+		background: rgba(159, 139, 118, 0.3);
 		padding: 0.75em;
 		margin-bottom: 0;
 	}
@@ -1920,11 +1924,11 @@ input, select, textarea {
 			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
 			position: relative;
 			height: 5.5em;
-			background-color: #3B3E45;
-			background-color: rgba(59, 62, 69, 0.9);
+			background-color: #D42121;
+			background-color: #D42121;
 			border-radius: 8px;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
-			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+			text-shadow: -1px -1px 0 rgba(40, 38, 38, 0.5);
 		}
 
 		#header h1 {
@@ -2093,16 +2097,16 @@ input, select, textarea {
 				backface-visibility: hidden;
 				background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
 				background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-				background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
+				background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(213, 16, 16, 0.35)), url("images/bg02.png");
 				background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-color: rgba(59, 62, 69, 0.9);
+				background-color: rgba(212, 33, 33, 1);
 				box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), 0px 1px 6px 0px rgba(0, 0, 0, 0.35);
 				display: block;
-				height: 44px;
+				height: 86px;
 				left: 0;
 				position: fixed;
 				text-shadow: -1px -1px 0 black;
@@ -2114,11 +2118,13 @@ input, select, textarea {
 				#titleBar .title {
 					display: block;
 					text-transform: none;
-					font-weight: 800;
+					font-weight: 600;
 					letter-spacing: 0.04em;
 					color: #fff;
 					line-height: 44px;
 					text-align: center;
+					width: 30%;
+					margin: 1em 1em 1em 3.5em
 				}
 
 				#titleBar .toggle {
@@ -2128,7 +2134,7 @@ input, select, textarea {
 					top: 0;
 					width: 60px;
 					height: 44px;
-					opacity: 0.25;
+					opacity: 0.55;
 				}
 
 					#titleBar .toggle:before {
@@ -2165,10 +2171,10 @@ input, select, textarea {
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
-				background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
-				background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				background-image: -moz-linear-gradient(rgba(243, 1, 1, 0.956), rgba(242, 11, 11, 0.928)), url("images/bg01.png");
+				background-image: -webkit-linear-gradient(rgba(212, 33, 33, 0.8),rgba(15, 16, 18, 0.5)), url("images/bg01.png");
+				background-image: -ms-linear-gradient(rgba(212, 33, 33, 0.8),rgba(15, 16, 18, 0.5)), url("images/bg01.png");
+				background-image: linear-gradient(rgba(212, 33, 33, 0.8),rgba(15, 16, 18, 0.5)), url("images/bg01.png");
 				-moz-transform: translateX(-275px);
 				-webkit-transform: translateX(-275px);
 				-ms-transform: translateX(-275px);
