@@ -1858,7 +1858,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"),rgba(15, 16, 18, .5);
+		background: url('images/Statue.jpg');
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
@@ -1926,8 +1926,7 @@ input, select, textarea {
 			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
 			position: relative;
 			height: 5.5em;
-			background-color: #D42121;
-			background-color: #D42121;
+			background-color: #171515;
 			border-radius: 8px;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
 			text-shadow: -1px -1px 0 rgba(40, 38, 38, 0.5);
