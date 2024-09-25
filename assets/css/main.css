@@ -1,11 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800");
-@import url("fontawesome-all.min.css");
 
-/*
-	ZeroFour by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1795,58 +1789,49 @@ input, select, textarea {
 	#banner {
 		text-align: center;
 		width: 940px;
-		margin: 0 auto;
+		margin: 15px auto;
 		overflow: hidden;
 		padding: 9em 0 6em 0;
+		background-color: hsla(15, 52%, 63%, 0.577);
+		border-radius: 8px;
 	}
 
 		#banner h2 {
-			border: solid 1px rgba(212, 33, 33, 0.5);
-			border-left: 0;
-			border-right: 0;
-			color:rgba(159, 139, 118, 1);
-			color: rgba(233, 222, 211,0.9);
-			font-size: 2.35em;
-			font-weight: 550;
-			line-height: 1.3em;
+			font-family: "Chivo";
+			color: rgba(0, 0, 0, 0.9);
+			font-size: 24px;
+			font-weight: 700;
 			margin: 0 0 1.5em 0;
+			padding: 0 50px
 		}
 
-			#banner h2 strong {
-				font-weight: 800;
-				color: inherit;
-			}
 
 			#banner h2:before {
 				content: '';
 				display: block;
-				border-top: solid 1px;
-				border-color: #888;
-				border-color:rgba(212, 33, 33, 0.5);
 				margin: 10px 0 1.25em 0;
 			}
 
 			#banner h2:after {
 				content: '';
 				display: block;
-				border-bottom: solid 1px;
-				border-color: #888;
-				border-color:rgba(212, 33, 33, 0.5);
 				margin: 1.25em 0 10px 0;
 			}
 
 		#banner p {
 			text-transform: none;
 			color: rgba(233, 222, 211, 1);
-			font-size: 1.5em;
+			font-family: 'Hind Vadodara';
+			font-size: 18px;
 			font-weight: 400;
 			line-height: 1.3em;
 			letter-spacing: 0.04em;
-			float: left;
 			text-align: center;
 			width: 60%;
 			line-height: 1.5em;
 			margin: 0;
+			padding: 20px 50px;
+			max-width: 700px;
 		}
 
 /* Sidebar */
@@ -1858,7 +1843,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url('images/Statue.jpg');
+		background: url('images/Statue.JPG');
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
@@ -1926,7 +1911,7 @@ input, select, textarea {
 			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
 			position: relative;
 			height: 5.5em;
-			background-color: #171515;
+			background-color: #D42121;
 			border-radius: 8px;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
 			text-shadow: -1px -1px 0 rgba(40, 38, 38, 0.5);
@@ -1938,8 +1923,9 @@ input, select, textarea {
 			top: 50%;
 			margin-top: -0.65em;
 			font-size: 1.5em;
-			color: #fff;
+			color: #a74242;
 		}
+	
 
 /* Footer */
 
@@ -2040,7 +2026,7 @@ input, select, textarea {
 			}
 
 				#banner h2 {
-					font-size: 2.2em;
+					font-size: 42px;
 					line-height: 1.3em;
 					margin: 0 0 1em 0;
 				}
