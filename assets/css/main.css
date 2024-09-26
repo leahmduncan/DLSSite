@@ -1224,6 +1224,10 @@ section, article {
 		margin-bottom: 0;
 	}
 
+	article p {
+		font-size: 1.2em;
+	}
+
 
 	header {
 		margin: 0 0 2em 0;
@@ -1261,16 +1265,11 @@ section, article {
 		margin: 0 0 0 0;
 	}
 
-	header.major {
-		border-bottom: solid 1px #691010;
-		margin: 0 0 3em 0;
-	}
 
 		header.major:after {
 			content: '';
 			display: block;
 			border-top: solid 1px #691010;
-			height: 8px;
 		}
 
 		header.major h2, header.major h3 {
@@ -1278,7 +1277,6 @@ section, article {
 		}
 
 		header.major p {
-			margin: 0 0 1.5em 0;
 			position: relative;
 			top: -1em;
 		}
@@ -1686,7 +1684,7 @@ section, article {
 			padding-bottom: 0;
 		}
 
-/* Icons 
+/* Icons */
 
 	.icon {
 		text-decoration: none;
@@ -1702,7 +1700,7 @@ section, article {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -1711,13 +1709,12 @@ section, article {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 		}
 
 		.icon > .label {
 			display: none;
 		}
-*/
 
 /* Nav */
 
@@ -2110,12 +2107,12 @@ section, article {
 
 				#titleBar .toggle {
 					text-decoration: none;
-					position: absolute;
+					position: relative;
 					left: 0;
-					top: 0;
-					width: 60px;
-					height: 44px;
-					opacity: 0.5;
+					top: 10px;
+					width: 50%;
+					height: 50%;
+					opacity: 1;
 				}
 
 					#titleBar .toggle:before {
@@ -2125,7 +2122,7 @@ section, article {
 						font-style: normal;
 						font-variant: normal;
 						text-rendering: auto;
-						line-height: 1;
+						line-height: 2em;
 						text-transform: none !important;
 						font-weight: 800;
 					}
@@ -2133,17 +2130,18 @@ section, article {
 					#titleBar .toggle:before {
 						display: inline-block;
 						text-decoration: none;
-						font-size: 18px;
-						width: 44px;
-						height: 44px;
-						line-height: 44px;
+						font-size: 100%;
+						width: 50px;
+						height: 60px;
+						line-height: 60px;
 						text-align: center;
-						color: #fff;
+						color: #E9DED3;
+						font: var(--fa-font-solid);
 						content: '\f0c9';
 					}
 
 					#titleBar .toggle:active {
-						opacity: 0.5;
+						opacity: 1;
 					}
 
 			#navPanel {
