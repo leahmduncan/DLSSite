@@ -1556,7 +1556,7 @@ section, article {
 
 
 	ul.default {
-		list-style: disc;
+		list-style: none;
 		padding-left: 1em;
 	}
 
@@ -1811,7 +1811,7 @@ section, article {
 			border-radius: 8px;
 			float: left;
 			position: relative;
-			bottom: 15px;
+			padding: 40px 0 40px 0;
 		}
 
 		#banner .visual {
@@ -1819,7 +1819,7 @@ section, article {
 			width: 75%;
 			border-radius: 8px;
 			box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.6);
-			margin: 20px auto;
+			margin: 40px auto;
 		}
 
 /* Sidebar */
@@ -1888,6 +1888,7 @@ section, article {
 	#header {
 		position: relative;
 		margin-bottom: 0;
+		padding: 20px 0 0 0;
 	}
 
 		#header .inner {
