@@ -110,6 +110,29 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
+	h3 {
+		font-size: 1.7em;
+		margin: 0 0 0.35em 0;
+		line-height: 1em;
+		font-family: 'Petrona', Georgia, 'Times New Roman', serif;
+		font-weight: 600;
+	}
+
+	h3.exhibit {
+		font-size: 1.5em;
+		margin: 0 0 1em 0;
+		line-height: 1em;
+		font-weight: 600;
+		font-family:'Barlow', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+	}
+
+	h4 {
+		font-size: 1.3em;
+		margin: 0 0 0.4em 0;
+		line-height: 1em;
+		font-weight: 600;
+	}
+
 		h2.icon {
 			line-height: 2em;
 		}
@@ -1143,6 +1166,9 @@ input, select, textarea {
 
 /* Section/Article */
 
+#content {
+	padding: 3em;
+}
 .intro p {
 	color: #E9DED3;
 	font-size: clamp(1rem, 5vw, 2rem);
@@ -1151,6 +1177,9 @@ input, select, textarea {
 
 	article p {
 		font-size: 1.2em;
+		font-family:'Barlow', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+		margin: 0 0 1.2em 0;
+		max-width: 900px;
 	}
 
 
@@ -1168,18 +1197,17 @@ input, select, textarea {
 		header.major:after {
 			content: '';
 			display: block;
-			border-top: solid 1px #691010;
 		}
 
 		header.major h2, header.major h3 {
 			margin: 0 0 1.2em 0;
-			font-family: 'Montserrat';
+			font-family: 'Petrona', Georgia, 'Times New Roman', serif;
 		}
 
 		header.major p {
 			position: relative;
-			top: -1em;
-			font-family: 'Montserrat';
+			font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+			margin: 0 0 1.2em 0;
 		}
 
 /* Forms */
